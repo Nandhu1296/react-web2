@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Card from './Card';
 const Cardsection=()=>{
     return(
 <section className="contact bg-success ">
@@ -25,7 +25,8 @@ const Cardsection=()=>{
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-4"><Card title='nandded'></Card></div>
+          {/* <div className="col-4">
             <div className="card" style={{width: "18rem"}}>
               <img
                 src="https://images.pexels.com/photos/3532544/pexels-photo-3532544.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
@@ -41,7 +42,7 @@ const Cardsection=()=>{
                 <a href="#" className="btn btn-success">Go somewhere</a>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-4">
             <div className="card" style={{width: "18rem"}}>
               <img
