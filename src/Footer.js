@@ -4,10 +4,10 @@ const Footer=()=>{
 
     return(
 
-        <section class="footer  bg-dark text-white">
-      <p class="lead container">Contact us at Instagram</p>
-      <p class="lead container">You can react via email too</p>
-      <p class="lead container">NO COPYRIGHT</p>
+        <section className="footer  bg-dark text-white">
+      <p className="lead container">Contact us at Instagram</p>
+      <p className="lead container">You can react via email too</p>
+      <p className="lead container">NO COPYRIGHT</p>
     </section>
 
     );
